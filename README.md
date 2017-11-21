@@ -1,5 +1,7 @@
 # AngularWorkshop
 
+Simple pokedex realised during a 6 hours workshop to experiment the creation of components, services and pipes with Angular.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.2.
 
 ## Development server
