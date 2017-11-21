@@ -5,12 +5,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CoverComponent } from './cover/cover.component';
+import { SearchComponent } from './search/search.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CoverComponent
+    CoverComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
