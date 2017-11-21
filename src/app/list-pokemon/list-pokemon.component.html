@@ -1,6 +1,8 @@
 <div class="resultset">
   <div columns is-multiline>
-    <app-pokemon *ngFor="let pokemon of pokemons" [pokemon]="pokemon">
+    <app-pokemon 
+      *ngFor="let pokemon of pokemons | searchFilter: filter" 
+      [pokemon]="pokemon">
     </app-pokemon>
   </div>
 </div>

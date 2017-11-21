@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  private name:string = 'Antoine';
+  filter: string;
+
+  constructor(){
+    this.filter = '';
+  }
+
+  search(query){
+    this.filter = query;
+  }
 }

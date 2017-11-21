@@ -1,9 +1,11 @@
 <div class="container">
-  <app-cover></app-cover>
+  <app-cover>
+  </app-cover>
 
-  <app-search></app-search>
+  <app-search (onChange)="search($event)">
+  </app-search>
 
-  <app-list-pokemon>
+  <app-list-pokemon [filter]="filter">
   </app-list-pokemon>
 </div>
 
